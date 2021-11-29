@@ -9,7 +9,7 @@
 | content      | Dialog内容                                       | string                  | --                   | ’ ‘    |
 | showClose    | 是否显示关闭图标                                 | boolean                 | --                   | true   |
 | contentAlign | 内容对齐方式                                     | string                  | left/center/right    | center |
-| actions      | 底部操作按钮组                                   | Array<DialogBtnOptions> | []                   | --     |
+| actions      | 底部操作按钮组                                   | Array``<DialogBtnOptions>`` | []                   | --     |
 
 
 
