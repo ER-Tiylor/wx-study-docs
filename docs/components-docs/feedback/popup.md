@@ -1,6 +1,10 @@
 ## Popup 弹出层
 
-popup一般用于移动端, 显示小段信息, 一般只有一层. 
+**重要背景与提示**：
+
+​	Popup 弹出层的使用场景一般是显示一段提示或选择信息，在真实App中，**当用户返回时会自动关闭弹出层**，SPA中开发者需要操作路由栈才能实现。而微信小程序官方的**[page-container](https://developers.weixin.qq.com/miniprogram/dev/component/page-container.html)**组件则实现了此能力，**可以直接使用它**。
+
+popup 一般用于移动端, 显示小段信息, 一般只有一层. 
 
 ### Props
 
